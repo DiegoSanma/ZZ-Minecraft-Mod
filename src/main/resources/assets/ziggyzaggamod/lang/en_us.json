@@ -2,12 +2,16 @@
   "item.ziggyzaggamod.sapphire": "Sapphire",
   "item.ziggyzaggamod.steel": "Steel",
   "item.ziggyzaggamod.ruby": "Ruby",
-  "item.ziggyzaggamod.amethyst": "Amethyst",
+  "item.ziggyzaggamod.amber": "Amber",
   "item.ziggyzaggamod.marinite": "Marinite",
   "item.ziggyzaggamod.zagazite": "Zagazite",
   "item.ziggyzaggamod.zigizite": "Zigizite",
   "item.ziggyzaggamod.zagazite_nugget": "Zagazite Nugget",
   "item.ziggyzaggamod.zigizite_nugget": "Zigizite Nugget",
+
+  "block.ziggyzaggamod.sapphire_block": "Sapphire Block",
+  "block.ziggyzaggamod.ruby_block": "Ruby Block",
+  "block.ziggyzaggamod.amber_block": "Amber Block",
 
   "creativetab.ziggyzagga_tab": "Ziggi Zagga"
 }

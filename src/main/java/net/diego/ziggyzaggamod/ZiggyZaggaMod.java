@@ -1,6 +1,7 @@
 package net.diego.ziggyzaggamod;
 
 import com.mojang.logging.LogUtils;
+import net.diego.ziggyzaggamod.blocks.ModBlocks;
 import net.diego.ziggyzaggamod.items.ModCreativeModeTabs;
 import net.diego.ziggyzaggamod.items.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -37,6 +38,7 @@ public class ZiggyZaggaMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -58,11 +60,12 @@ public class ZiggyZaggaMod
         if(event.getTabKey()== CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.STEEL);
-            event.accept(ModItems.RUBY);
-            event.accept(ModItems.RUBY);
-            event.accept(ModItems.RUBY);
-            event.accept(ModItems.RUBY);
-            event.accept(ModItems.RUBY);
+            event.accept(ModItems.AMBER);
+            event.accept(ModItems.MARINITE);
+            event.accept(ModItems.ZAGAZITE);
+            event.accept(ModItems.ZIGIZITE);
+            event.accept(ModItems.ZAGAZITE_NUGGET);
+            event.accept(ModItems.ZIGIZITE_NUGGET);
 
         }
     }

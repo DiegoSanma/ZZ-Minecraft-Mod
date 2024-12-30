@@ -19,8 +19,8 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY =
             ITEMS.register("ruby",() -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> AMETHYST =
-            ITEMS.register("amethyst",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMBER =
+            ITEMS.register("amber",() -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MARINITE =
             ITEMS.register("marinite",() -> new Item(new Item.Properties()));
