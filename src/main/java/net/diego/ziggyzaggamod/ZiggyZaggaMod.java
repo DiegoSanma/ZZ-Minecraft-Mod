@@ -58,6 +58,12 @@ public class ZiggyZaggaMod
         if(event.getTabKey()== CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.STEEL);
+            event.accept(ModItems.RUBY);
+            event.accept(ModItems.RUBY);
+            event.accept(ModItems.RUBY);
+            event.accept(ModItems.RUBY);
+            event.accept(ModItems.RUBY);
+
         }
     }
 

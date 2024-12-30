@@ -20,6 +20,13 @@ public class ModCreativeModeTabs {
                             .displayItems((itemDisplayParameters, output) -> {
                                 output.accept(ModItems.SAPPHIRE.get());
                                 output.accept(ModItems.STEEL.get());
+                                output.accept(ModItems.RUBY.get());
+                                output.accept(ModItems.AMETHYST.get());
+                                output.accept(ModItems.MARINITE.get());
+                                output.accept(ModItems.ZIGIZITE.get());
+                                output.accept(ModItems.ZAGAZITE.get());
+                                output.accept(ModItems.ZIGIZITE_NUGGET.get());
+                                output.accept(ModItems.ZAGAZITE_NUGGET.get());
                             })
                             .build());
     public static void register(IEventBus eventBus) {
