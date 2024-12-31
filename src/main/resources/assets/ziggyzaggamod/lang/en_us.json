@@ -10,6 +10,15 @@
   "item.ziggyzaggamod.zigizite_nugget": "Zigizite Nugget",
   "item.ziggyzaggamod.amber_staff" : "Amber Staff",
   "item.ziggyzaggamod.ruby_sword" : "Ruby Sword",
+  "item.ziggyzaggamod.ruby_helmet" : "Ruby Helmet",
+  "item.ziggyzaggamod.ruby_chestplate" : "Ruby Chestplate",
+  "item.ziggyzaggamod.ruby_leggings" : "Ruby Leggings",
+  "item.ziggyzaggamod.ruby_boots" : "Ruby Boots",
+
+  "item.ziggyzaggamod.steel_helmet" : "Steel Helmet",
+  "item.ziggyzaggamod.steel_chestplate" : "Steel Chestplate",
+  "item.ziggyzaggamod.steel_leggings" : "Steel Leggings",
+  "item.ziggyzaggamod.steel_boots" : "Steel Boots",
 
   "block.ziggyzaggamod.sapphire_block": "Sapphire Block",
   "block.ziggyzaggamod.ruby_block": "Ruby Block",

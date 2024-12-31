@@ -30,6 +30,14 @@ public class ModCreativeModeTabs {
                                 output.accept(ModItems.ZAGAZITE_NUGGET.get());
                                 output.accept(ModItems.AMBER_STAFF.get());
                                 output.accept(ModItems.RUBY_SWORD.get());
+                                output.accept(ModItems.RUBY_HELMET.get());
+                                output.accept(ModItems.RUBY_CHESTPLATE.get());
+                                output.accept(ModItems.RUBY_LEGGINGS.get());
+                                output.accept(ModItems.RUBY_BOOTS.get());
+                                output.accept(ModItems.STEEL_HELMET.get());
+                                output.accept(ModItems.STEEL_CHESTPLATE.get());
+                                output.accept(ModItems.STEEL_LEGGINGS.get());
+                                output.accept(ModItems.STEEL_BOOTS.get());
                                 output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                                 output.accept(ModBlocks.RUBY_BLOCK.get());
                                 output.accept(ModBlocks.AMBER_BLOCK.get());
