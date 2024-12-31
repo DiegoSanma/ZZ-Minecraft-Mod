@@ -5,6 +5,7 @@ import net.diego.ziggyzaggamod.blocks.ModBlocks;
 import net.diego.ziggyzaggamod.items.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -26,6 +27,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .pattern("SSS")
                 .define('S',ModItems.SAPPHIRE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()),has(ModItems.SAPPHIRE.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_SWORD.get())
+                .pattern("R")
+                .pattern("R")
+                .pattern("#")
+                .define('R',ModItems.RUBY.get())
+                .define('#', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()),has(ModItems.SAPPHIRE.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AMBER_STAFF.get())
+                .pattern("B")
+                .pattern("A")
+                .pattern("#")
+                .define('B',Items.BLAZE_POWDER)
+                .define('A',ModItems.AMBER.get())
+                .define('#', Items.STICK)
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()),has(ModItems.SAPPHIRE.get()))
                 .save(consumer);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(),9)

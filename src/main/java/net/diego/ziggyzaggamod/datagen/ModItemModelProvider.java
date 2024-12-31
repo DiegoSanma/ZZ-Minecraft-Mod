@@ -29,6 +29,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ZIGIZITE);
         simpleItem(ModItems.ZIGIZITE_NUGGET);
         simpleItem(ModItems.BURGER);
+
+        handheldItem(ModItems.RUBY_SWORD);
+        //handheldItem(ModItems.AMBER_STAFF);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -36,4 +39,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(ZiggyZaggaMod.MOD_ID, "item/" + item.getId().getPath()));
     }
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(ZiggyZaggaMod.MOD_ID, "item/" + item.getId().getPath()));
+    }
+
 }

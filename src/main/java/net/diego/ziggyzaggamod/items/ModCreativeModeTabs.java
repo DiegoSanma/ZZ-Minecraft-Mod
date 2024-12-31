@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                                 output.accept(ModItems.ZIGIZITE_NUGGET.get());
                                 output.accept(ModItems.ZAGAZITE_NUGGET.get());
                                 output.accept(ModItems.AMBER_STAFF.get());
+                                output.accept(ModItems.RUBY_SWORD.get());
                                 output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                                 output.accept(ModBlocks.RUBY_BLOCK.get());
                                 output.accept(ModBlocks.AMBER_BLOCK.get());
