@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                                 output.accept(ModBlocks.RUBY_BLOCK.get());
                                 output.accept(ModBlocks.AMBER_BLOCK.get());
                                 output.accept(ModBlocks.SAPPHIRE_ORE.get());
+                                output.accept(ModItems.BURGER.get());
 
                             })
                             .build());

@@ -36,6 +36,9 @@ public class ModItems {
     public static final RegistryObject<Item> ZIGIZITE_NUGGET =
             ITEMS.register("zigizite_nugget",() -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BURGER =
+            ITEMS.register("burger",() -> new Item(new Item.Properties().food(ModFoods.BURGER)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
