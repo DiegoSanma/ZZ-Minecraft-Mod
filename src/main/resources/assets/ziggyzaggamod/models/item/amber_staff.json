@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "ziggyzaggamod:item/amber_staff_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent" : "ziggyzaggamod:item/amber_staff_2d"
+    },
+    "ground": {
+      "parent" : "ziggyzaggamod:item/amber_staff_2d"
+    },
+    "fixed": {
+      "parent": "ziggyzaggamod:item/amber_staff_2d"
+    }
+  }
+}
