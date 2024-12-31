@@ -1,0 +1,13 @@
+// 1.20.1	2024-12-31T14:05:25.7072699	Block States: ziggyzaggamod
+0dd2e94122a9c9e7cf464c07a14e0428a664fff0 assets/ziggyzaggamod/blockstates/amber_block.json
+2ca6317c7efb4cba20049e7156877bbc3ab21bbe assets/ziggyzaggamod/blockstates/ruby_block.json
+cc36899624c797c4660aca750a15233f31213eab assets/ziggyzaggamod/blockstates/sapphire_block.json
+64dcdd7014847aa3d3afd91c5fbe7b42f92e38d2 assets/ziggyzaggamod/blockstates/sapphire_ore.json
+546e69b81c1925a0bc21364b5d7425c63c41369f assets/ziggyzaggamod/models/block/amber_block.json
+9e678c7347fd1c5a203eed63880f7de37af7137a assets/ziggyzaggamod/models/block/ruby_block.json
+6220c354892fcba4eb19ecae9d5cf01f8fb5423d assets/ziggyzaggamod/models/block/sapphire_block.json
+aea76b8f2d12a4b3dda08126dbb8013a8b771fb6 assets/ziggyzaggamod/models/block/sapphire_ore.json
+60ccf62349a821d49a670569adfbc4d9b3227313 assets/ziggyzaggamod/models/item/amber_block.json
+5bdcf5ab3b4b713ecec899f0c2b9f7e8bf96a3e2 assets/ziggyzaggamod/models/item/ruby_block.json
+83d13d7a87653806989179b0fe6418405a7bfde9 assets/ziggyzaggamod/models/item/sapphire_block.json
+9f6d4568c985f61dbaa36c5b1b4587f6ab29fb82 assets/ziggyzaggamod/models/item/sapphire_ore.json
