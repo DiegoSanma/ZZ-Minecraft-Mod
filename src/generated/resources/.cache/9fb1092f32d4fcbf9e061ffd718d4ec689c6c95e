@@ -1,5 +1,9 @@
-// 1.20.1	2024-12-31T14:05:25.7703448	Recipes
+// 1.20.1	2025-01-01T13:45:36.8793232	Recipes
+dab258232ee8dd73af5135c6056d9864855a0670 data/ziggyzaggamod/advancements/recipes/misc/amber_staff.json
+230797a41e0be55880a608ea7dd97834faa6010b data/ziggyzaggamod/advancements/recipes/misc/ruby_sword.json
 9aa4a05b0170f15e3c811b274030d1ecf1398d8b data/ziggyzaggamod/advancements/recipes/misc/sapphire.json
 deb9c16b9ce5ca61832723b7a6fef6ac611bf3b6 data/ziggyzaggamod/advancements/recipes/misc/sapphire_block.json
+f2444cd0044d37638e8f2547b63ea4f88131df0d data/ziggyzaggamod/recipes/amber_staff.json
+c786f8f5195c3e91822806c5e4f77a0abada0425 data/ziggyzaggamod/recipes/ruby_sword.json
 41b02f80182b16ceca6ac005249cdd3f1cd84013 data/ziggyzaggamod/recipes/sapphire.json
 c06331e62c2b596410a39b5d4b148b204ed8b329 data/ziggyzaggamod/recipes/sapphire_block.json

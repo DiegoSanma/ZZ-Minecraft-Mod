@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "ziggyzaggamod:amber"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "pattern": [
+    "B",
+    "A",
+    "#"
+  ],
+  "result": {
+    "item": "ziggyzaggamod:amber_staff"
+  },
+  "show_notification": true
+}
