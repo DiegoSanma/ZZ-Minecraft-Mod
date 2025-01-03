@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.diego.ziggyzaggamod.blocks.ModBlocks;
 import net.diego.ziggyzaggamod.items.ModCreativeModeTabs;
 import net.diego.ziggyzaggamod.items.ModItems;
+import net.diego.ziggyzaggamod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -39,6 +40,7 @@ public class ZiggyZaggaMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

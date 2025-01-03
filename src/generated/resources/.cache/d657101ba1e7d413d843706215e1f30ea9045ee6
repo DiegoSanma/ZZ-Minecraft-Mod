@@ -1,0 +1,5 @@
+// 1.20.1	2025-01-03T19:37:14.0621251	Global Loot Modifiers : ziggyzaggamod
+680f886ee638805c6e6d260bf618f66950c18f23 data/forge/loot_modifiers/global_loot_modifiers.json
+91c36c5fa293ddd81d1ca5d596b0a05b374164d5 data/ziggyzaggamod/loot_modifiers/amber_from_blaze.json
+d7567a431d2cef17d57af22c16d2c7f2f110513b data/ziggyzaggamod/loot_modifiers/amber_staff_from_bastions.json
+e92bbe1eb2fed2038204800b3b66aa8fc1193146 data/ziggyzaggamod/loot_modifiers/ruby_from_jungle_temples.json
