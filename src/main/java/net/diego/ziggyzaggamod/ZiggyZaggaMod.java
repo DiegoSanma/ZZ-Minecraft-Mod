@@ -2,13 +2,17 @@ package net.diego.ziggyzaggamod;
 
 import com.mojang.logging.LogUtils;
 import net.diego.ziggyzaggamod.blocks.ModBlocks;
+import net.diego.ziggyzaggamod.entity.ModEntities;
+import net.diego.ziggyzaggamod.entity.client.SausageDogRenderer;
 import net.diego.ziggyzaggamod.items.ModCreativeModeTabs;
 import net.diego.ziggyzaggamod.items.ModItems;
 import net.diego.ziggyzaggamod.loot.ModLootModifiers;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -41,6 +45,7 @@ public class ZiggyZaggaMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -85,6 +90,7 @@ public class ZiggyZaggaMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            EntityRenderers.register(ModEntities.SAUSAGE_DOG.get(), SausageDogRenderer::new);
         }
     }
 }
